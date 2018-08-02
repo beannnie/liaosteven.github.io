@@ -6,10 +6,22 @@
     <description>Recent content on steven liao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Aug 2018 10:49:56 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Aug 2018 12:17:02 +0800</lastBuildDate>
     
 	<atom:link href="https://stevenliao.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Credits</title>
+      <link>https://stevenliao.me/credits/</link>
+      <pubDate>Thu, 02 Aug 2018 12:17:02 +0800</pubDate>
+      
+      <guid>https://stevenliao.me/credits/</guid>
+      <description>Font My preferred font (and my favorite font in general) for viewing this site: brown by aurele sacks
+But, you probably wouldn&amp;rsquo;t need me to tell you that, if you&amp;rsquo;re seeing it ;).
+If you don&amp;rsquo;t have brown installed on your machine (and you probably don&amp;rsquo;t if you&amp;rsquo;re not sure) you&amp;rsquo;re probably viewing this site through open sans or bree serif
+Artwork Thanks to the talented jennifer zhu for commissioning my self-portraits</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -17,9 +29,9 @@
       <pubDate>Thu, 02 Aug 2018 10:49:56 +0800</pubDate>
       
       <guid>https://stevenliao.me/about/</guid>
-      <description>test test test
-Hi, and thanks for visiting my site :).
-The primary purpose of this site is to s</description>
+      <description>Hi! I&amp;rsquo;m Steven - thanks for visiting my site :).
+I use this site primarily to share projects I do related to sports analytics. I&amp;rsquo;ve been involved with sports analytics since college, where I was a member of the Brown Sports Analytics Club.
+Outside of sports, interests and hobbies of mine include design, optimizing / quantifying / modeling everyday decisions, learning about how things work, and recently, hiking and learning new languages (to improve cultural immersion and exchange, when I travel).</description>
     </item>
     
   </channel>

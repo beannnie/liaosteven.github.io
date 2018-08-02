@@ -66,18 +66,29 @@
                 <div class="header">
     <div class="title">
         <h1><a href="https://stevenliao.me/">steven liao</a></h1>
-        <p class="lead">sports analytics blog</p>
+	<p class="lead">sports analytics blog</p>
         
     </div>
     <div class="logo">
         
         
             
-                <a id="logo" href="https://stevenliao.me/"><img src="https://stevenliao.me/img/self_portrait.png" alt="steven liao" /></a>
+	    <a id="logo" href="https://stevenliao.me/"><img src="https://stevenliao.me/img/self_portrait.png" onmouseover="colorizeLogo(this);" onmouseout="normalizeLogo(this);" alt="steven liao"/></a>
             
         
     </div>
+    
+    
+    <script>
+    function colorizeLogo(element) {
+	    element.setAttribute('src', "https://stevenliao.me/img/self_portrait_colored.png");
+    }
 
+    function normalizeLogo(element) {
+	    element.setAttribute('src', "https://stevenliao.me/img/self_portrait.png");    
+    }
+
+</script>
     <ul class="sidebar-menu">
         
             <li class="sidebar-menu-item"><a href="https://stevenliao.me/about/">about</a></li>
@@ -108,11 +119,17 @@
                         <div class="post-stamp">
                             <h1 class="post-title">About</h1>
                         </div>
-                        <p>test test test</p>
+                        <p><img src="/img/self_portrait_colored.png" alt="Steven" /></p>
 
-<p>Hi, and thanks for visiting my site :).</p>
+<p>Hi! I&rsquo;m Steven - thanks for visiting my site :).</p>
 
-<p>The primary purpose of this site is to s</p>
+<p>I use this site primarily to share projects I do related to sports analytics. I&rsquo;ve been involved with sports analytics since college, where I was a member of the <a href="https://brownsportsanalytics.com">Brown Sports Analytics Club</a>.</p>
+
+<p>Outside of sports, interests and hobbies of mine include design, optimizing / quantifying / modeling everyday decisions, learning about how things work, and recently, hiking and learning new languages (to improve cultural immersion and exchange, when I travel).</p>
+
+<p>I graduated from Brown with a degree in Statistics in 2018, and will be working as a trader in New York City starting in September.</p>
+
+<p>Thanks for stopping by! I welcome feedback on any of my work. If you would like to share feedback, are interested in collaborating, or just want to say hi (really!), please feel free to reach me at liaosteven51@gmail.com!</p>
 
                         
                         
