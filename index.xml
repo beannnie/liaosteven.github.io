@@ -2,14 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>steven liao</title>
-    <link>https://liaosteven.github.io/</link>
+    <link>https://stevenliao.me/</link>
     <description>Recent content on steven liao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Aug 2018 16:13:39 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 02 Aug 2018 10:49:56 +0800</lastBuildDate>
     
-	<atom:link href="https://liaosteven.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://stevenliao.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://stevenliao.me/about/</link>
+      <pubDate>Thu, 02 Aug 2018 10:49:56 +0800</pubDate>
+      
+      <guid>https://stevenliao.me/about/</guid>
+      <description>test test test
+Hi, and thanks for visiting my site :).
+The primary purpose of this site is to s</description>
+    </item>
     
   </channel>
 </rss>
