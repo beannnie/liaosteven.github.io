@@ -6,10 +6,34 @@
     <description>Recent content on steven liao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Aug 2018 14:10:11 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Aug 2018 15:04:03 +0800</lastBuildDate>
     
 	<atom:link href="https://stevenliao.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>a (potentially) better way to measure game closeness</title>
+      <link>https://stevenliao.me/post/integrated_point_differential/</link>
+      <pubDate>Fri, 10 Aug 2018 15:04:03 +0800</pubDate>
+      
+      <guid>https://stevenliao.me/post/integrated_point_differential/</guid>
+      <description>What is the best way to measure how close a game is?
+As a recreational sports better, this question is clearly of interest. Consider:
+ If two teams are 8-0, and one has been winning in blowouts, but the other has been winning in close games, perhaps the &amp;lsquo;blowout&amp;rsquo;-winning team is the better squad.
+ If team A is playing team B for the second time this year, perhaps it would be interesting to know how close things were the first time around.</description>
+    </item>
+    
+    <item>
+      <title>basics of sports betting</title>
+      <link>https://stevenliao.me/post/basic_intro_betting/</link>
+      <pubDate>Fri, 10 Aug 2018 14:48:45 +0800</pubDate>
+      
+      <guid>https://stevenliao.me/post/basic_intro_betting/</guid>
+      <description>In my content, I may frequently reference sports betting terminology / ideas. Under the dry not wet principle, I am writing this guide.
+A betting line offered by sportsbooks is almost always presented as:
+[Team] [Spread] [Odds] 
+ The team is the team you&amp;rsquo;re betting on in a given match. The spread is a &amp;lsquo;handicap&amp;rsquo; - (see the example below). The odds tell you how much money you&amp;rsquo;ll receive, if you win the bet.</description>
+    </item>
     
     <item>
       <title>valuing nfl draft picks</title>
