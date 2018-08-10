@@ -25,7 +25,25 @@ html, button, input, select, textarea,
 .header h1 a:hover {
 	text-decoration:none;
 }
-.header #logo img {
+.header #logo img:first-child {
+	display:block;
+	border: none;
+        width:80%;
+        margin: auto;
+}
+.header #logo img:last-child {
+	border: none;
+        width:80%;
+        display: none;
+        margin: auto;
+}
+.header #logo:hover img:first-child {
+	display:none;
+	border: none;
+        width:80%;
+        margin: auto;
+}
+.header #logo:hover img:last-child {
 	border: none;
         width:80%;
         display: block;
