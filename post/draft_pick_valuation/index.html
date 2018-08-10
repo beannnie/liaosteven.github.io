@@ -104,12 +104,15 @@
         
         
             
-	    <a id="logo" href="/about"><img src="/img/self_portrait.png" onmouseover="colorizeLogo(this);" onmouseout="normalizeLogo(this);" alt="steven liao"/></a>
+	    <a id="logo" href="/about">
+		    <img src="/img/self_portrait.png" onmouseover="colorizeLogo(this);" onmouseout="normalizeLogo(this);" alt="steven liao"/>
+	    </a>
             
         
     </div>
     
     
+    <link rel="preload" as="image" href="/img/self_portrait_colored.png">
     <script>
     function colorizeLogo(element) {
 	    element.setAttribute('src', "/img/self_portrait_colored.png");
