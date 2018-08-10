@@ -143,6 +143,11 @@ img[src$='#50'] {
 	float: right;
 }
 
+img[src$='center'] {
+	display: block;
+	margin: 0.7rem auto;
+}
+
 a {
 	font-weight:400; /* originally 700 */
 	text-decoration:none;

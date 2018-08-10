@@ -12,14 +12,12 @@
     
     
     <item>
-      <title>Valuing NFL Draft Picks</title>
+      <title>valuing nfl draft picks</title>
       <link>https://stevenliao.me/post/draft_pick_valuation/</link>
       <pubDate>Wed, 08 Aug 2018 14:10:11 +0800</pubDate>
       
       <guid>https://stevenliao.me/post/draft_pick_valuation/</guid>
-      <description>Originally published on the Brown Sports Analytics blog. Amended below for clarity / brevity.
-In March 2017, the Cleveland Browns acquired the maligned Brock Osweiler from the Texans. Osweiler was coming off a disappointing season, and had just signed a massive 4 year, \$72 million dollar contract the year before.
-Osweiler was released from the Browns less than six months later, never having played a snap. For his &amp;lsquo;contributions&amp;rsquo;, the Browns paid \$15.</description>
+      <description>TLDR: We make a model valuing draft picks according to how much they outperform their rookie contract (using historical data from 1994-2016). Draft picks tend to be underpaid on the whole (as expected), serving as cheap talent (whereas free agents are &amp;lsquo;properly priced talent&amp;rsquo;). The most underpaid draft picks are in the late first round and early second round; counterintuitively, this suggests they could actually be worth more than high first round picks.</description>
     </item>
     
   </channel>
