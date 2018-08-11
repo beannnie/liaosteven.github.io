@@ -6,21 +6,18 @@
     <description>Recent content on steven liao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Aug 2018 15:04:03 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 11 Aug 2018 15:04:03 +0800</lastBuildDate>
     
 	<atom:link href="https://stevenliao.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>a (potentially) better way to measure game closeness</title>
+      <title>a better way to measure game closeness</title>
       <link>https://stevenliao.me/post/integrated_point_differential/</link>
-      <pubDate>Fri, 10 Aug 2018 15:04:03 +0800</pubDate>
+      <pubDate>Sat, 11 Aug 2018 15:04:03 +0800</pubDate>
       
       <guid>https://stevenliao.me/post/integrated_point_differential/</guid>
-      <description>What is the best way to measure how close a game is?
-As a recreational sports better, this question is clearly of interest. Consider:
- If two teams are 8-0, and one has been winning in blowouts, but the other has been winning in close games, perhaps the &amp;lsquo;blowout&amp;rsquo;-winning team is the better squad.
- If team A is playing team B for the second time this year, perhaps it would be interesting to know how close things were the first time around.</description>
+      <description>TLDR: The final score does not tell the whole story regarding how close a game was. Integrated Point Differential (IPD) improves upon Point Differential by accounting for the score throughout the game, as opposed to just the final score. Spread Integrated Point Differential (SIPD) adjusts IPD with respect to the spread, and could be a useful proxy for whether a bet was the right side (even if it didn&amp;rsquo;t cover).</description>
     </item>
     
     <item>
