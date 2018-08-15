@@ -6,15 +6,26 @@
     <description>Recent content in Posts on steven liao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Aug 2018 15:04:03 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Aug 2018 16:59:08 +0800</lastBuildDate>
     
 	<atom:link href="https://stevenliao.me/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>nba: how does the rise of the 3-pointer impact offensive rebounding strategy?</title>
+      <link>https://stevenliao.me/post/offensive_rebounding_strategy/</link>
+      <pubDate>Wed, 15 Aug 2018 16:59:08 +0800</pubDate>
+      
+      <guid>https://stevenliao.me/post/offensive_rebounding_strategy/</guid>
+      <description>TLDR: Teams that play &amp;ldquo;Morey-Ball&amp;rdquo; should value offensive rebounds more, and consider devoting more resources to grabbing them.
+Rebounding is fairly valuable in basketball, as a rebound results in additional possession (worth over 1 point). With points per possession increasing league-wide as a result of the NBA&amp;rsquo;s recent 3-point revolution, why, in fact, are offensive rebounding numbers dropping to all-time lows?
+In this post we are concerned with the following strategic questions:</description>
+    </item>
+    
+    <item>
       <title>a better way to measure game closeness</title>
       <link>https://stevenliao.me/post/integrated_point_differential/</link>
-      <pubDate>Sat, 11 Aug 2018 15:04:03 +0800</pubDate>
+      <pubDate>Tue, 14 Aug 2018 15:04:03 +0800</pubDate>
       
       <guid>https://stevenliao.me/post/integrated_point_differential/</guid>
       <description>TLDR: The final score does not tell the whole story regarding how close a game was. Integrated Point Differential (IPD) improves upon Point Differential by accounting for the score throughout the game, as opposed to just the final score. Spread Integrated Point Differential (SIPD) adjusts IPD with respect to the spread, and could be a useful proxy for whether a bet was the right side (even if it didn&amp;rsquo;t cover).</description>
@@ -27,9 +38,7 @@
       
       <guid>https://stevenliao.me/post/basic_intro_betting/</guid>
       <description>In my content, I may frequently reference sports betting terminology / ideas. Under the dry not wet principle, I am writing this guide.
-A betting line offered by sportsbooks is almost always presented as:
-[Team] [Spread] [Odds] 
- The team is the team you&amp;rsquo;re betting on in a given match. The spread is a &amp;lsquo;handicap&amp;rsquo; - (see the example below). The odds tell you how much money you&amp;rsquo;ll receive, if you win the bet.</description>
+If a sportsbook is a restaurant, betting lines are the menu items you can choose from. Betting lines tell you who (which team or individual) you&amp;rsquo;re betting on, conditions for winning the bet, and how much money you&amp;rsquo;ll receive if you win. Just as with restaurants, the menu of betting lines differs by sportsbook; some offer better odds, some offer more diverse menu items (WNBA, high school football), some even offer build-your-own bets.</description>
     </item>
     
     <item>
