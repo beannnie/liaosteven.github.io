@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta property="og:title" content=" basics of sports betting: part two &middot;  steven liao" />
+<meta property="og:title" content=" basics of sports betting part 2: probability concepts &middot;  steven liao" />
 <meta property="og:site_name" content="steven liao" />
 <meta property="og:url" content="https://stevenliao.me/post/basic_intro_betting_2/" />
 
@@ -15,12 +15,12 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@" />
     <meta name="twitter:creator" content="@" />
-    <meta name="twitter:title" content="basics of sports betting: part two" />
+    <meta name="twitter:title" content="basics of sports betting part 2: probability concepts" />
     <meta name="twitter:description" content="" />
     <meta name="twitter:url" content="https://stevenliao.me/post/basic_intro_betting_2/" />
 
 
-<title> basics of sports betting: part two &middot;  steven liao</title>
+<title> basics of sports betting part 2: probability concepts &middot;  steven liao</title>
 
 
     <meta name="description" content="" />
@@ -144,7 +144,7 @@
         <div class="content pure-u-1 pure-u-md-5-6">
             <div class="article singlepage" id="" class="post">
                 <div class="post-stamp">
-                    <h1 class="post-title">basics of sports betting: part two</h1>
+                    <h1 class="post-title">basics of sports betting part 2: probability concepts</h1>
                     <span class="post-date">Aug 20, 2018 &middot; 6 minute read</span>
                     
 
@@ -154,7 +154,7 @@
                 </div>
                 
 
-<p><em>This is <strong>Part Two</strong> of Three. <a href="https://stevenliao.me/post/basic_intro_betting/">Part One</a> covers definitions and betting language. <a href="https://stevenliao.me/post/basic_intro_betting_2/">Part Two</a> covers key probability concepts in betting. <a href="https://stevenliao.me/post/basic_intro_betting_3/">Part Three</a> covers ancillary concepts such as bankroll management and implied odds.</em></p>
+<p><em>This is <strong>Part Two</strong> of Four. <a href="https://stevenliao.me/post/basic_intro_betting/">Part One</a> covers definitions and betting language. <a href="https://stevenliao.me/post/basic_intro_betting_2/">Part Two</a> covers key probability concepts in betting. <a href="https://stevenliao.me/post/basic_intro_betting_3/">Part Three</a> covers implied odds.</em></p>
 
 <p>Welcome to Part Two of the guide! Here, we&rsquo;ll move on from simply understanding terminology to introducing some probablistic concepts in sports betting.</p>
 
@@ -211,12 +211,12 @@ Dolphins +3 -110</b>
 </p>
 
 <p>What is your edge on betting on one of these lines? By definition of EV, we calculate edge (EV) as follows:$$\text{Edge} = [\text{Probability of Cover}] \times [\text{Amount You Would Win}] + [\text{Probability of Loss}] \times [\text{Amount You Would Lose}]$$Let&rsquo;s assume both sides are indeed equally likely. Let $x$ be the amount you wager on the Patriots. Your edge then is:
-$\begin{aligned}
-\dfrac{1}{2} \times \dfrac{x}{1.1} + \dfrac{1}{2} \times -x &amp;= \dfrac{x}{2.2} - \dfrac{x}{2} \
-&amp;= \dfrac{2x}{4.4} - \dfrac{2.2x}{4.4} <br />
-&amp;= -\dfrac{0.2x}{4.4} <br />
-&amp;= \dfrac{x}{22}
-\end{aligned}$</p>
+$\begin{align}
+[\dfrac{1}{2} \times \dfrac{x}{1.1}] + [\dfrac{1}{2} \times (-x)] &amp;= \dfrac{x}{2.2} - \dfrac{x}{2} \\
+&amp;= \dfrac{2x}{4.4} - \dfrac{2.2x}{4.4} \\<br />
+&amp;= -\dfrac{0.2x}{4.4} \\<br />
+&amp;= \boxed{-\dfrac{x}{22}}
+\end{align}$</p>
 
 <p>So on your typical bet against the spared (where we assume both outcomes are 50-50) - with <strong>-110</strong> odds on both sides - you should expect to lose 4.5% of your wager on each bet!</p>
 
@@ -225,7 +225,7 @@ $\begin{aligned}
 <p><strong>Decimal odds offer one key convenience - they make calculating edge (significantly) easier.</strong> Using Decimal Odds, edge is calculated as:$$[\text{Decimal Odds}] \times [\text{Probability you Cover}] -1$$This formula can be derived / seen by working through an example where you bet \$1:</p>
 
 <ul>
-<li>You start with \$1. After the bet, there is an $[\text{Probability You Cover}]$ chance you get $[\text{Decimal Odds}]$ back (remember, decimal odds refer to the total amount you receive if you win - including your wager back). There is a  $[\text{Probability You Don&rsquo;t Cover}]$ chance you get \$0 back. Thus, at the end of the bet, you expect to have</li>
+<li>You start with \$1. After the bet, there is an $[\text{Probability You Cover}]$ chance you get $[\text{Decimal Odds}]$ back (i.e. if decimal odds are 2.70, you get \$2.70 back if you win, which includes your original wager). There is a  $[\text{Probability You Don&rsquo;t Cover}]$ chance you get \$0 back. Thus, at the end of the bet, you expect to have</li>
 </ul>
 
 <p>$$[\text{Decimal Odds}] \times [\text{Probability you Cover}] + 0\times[\text{Probability you Don&rsquo;t Cover}] = [\text{Decimal Odds}]\times [\text{Probability you Cover}]$$ Subtract \$1, your starting total, and you get how much you expect to make off that bet.</p>
@@ -234,11 +234,17 @@ $\begin{aligned}
 
 <h3 id="breakeven-probability">Breakeven Probability</h3>
 
-<p>Assume a sportsbook offers -110 odds on some event occurring. What is the &lsquo;breakeven probability&rsquo; - the probability of the event occuring where your edge would be 0?</p>
+<p>Assume a sportsbook offers -110 odds on some event occurring. What is the &lsquo;breakeven probability&rsquo; - <strong>the probability of the event occuring where your edge would be 0</strong>? Worded more practically, how likely does the event need to occur for you to make this bet?</p>
 
-<p>Let the breakeven probability be $p$. We want $p$ such that:$$1 \times p - 1.1 \times (1-p) = 0$$Solving, we find $p = \boxed{\dfrac{1.1}{2.1}}$, or $\approx 52.38\%$.</p>
+<p>Let the breakeven probability be $p$. By definition, we want $p$ such that:$$1 \times p - 1.1 \times (1-p) = 0$$Solving, we find $p = \boxed{\dfrac{1.1}{2.1}}$, or $\approx 52.38\%$.</p>
 
-<p><strong>Breakeven probability is also significantly easier to calculate with decimal odds</strong> (I honestly wish decimal odds were the norm). Assume decimal odds are $d$. Remember, we derived the formula for edge as:$$d \times [\text{Probability you Cover}] -1$$It follows that if $p$ is the breakeven probability, then we solve$$d \times p -1 =0 \to p = \boxed{\dfrac{1}{d}}$$</p>
+<p><strong>Breakeven probability is also significantly easier to calculate with decimal odds</strong> (I honestly wish decimal odds were the norm). Assume decimal odds are $d$. Remember, we derived the formula for edge as:$$d \times [\text{Probability you Cover}] -1$$It follows that if $p$ is the breakeven probability, then we solve
+$$
+\begin{align}
+d \times p -1 &amp;=0 \\<br />
+&amp;\to p = \boxed{\dfrac{1}{d}}
+\end{align}
+$$</p>
 
 <h3 id="practice-questions">Practice Questions</h3>
 
@@ -257,6 +263,8 @@ $\begin{aligned}
 
 <li><p>Suppose instead of offering <strong>-110</strong> lines on both sides of a spread bet, a sportsbook offers <strong>-105</strong> lines (a smaller juice). Assuming 50-50 outcome probability, what is the new edge if betting on this line (either side)?</p></li>
 </ol>
+
+<p>Answers can be found in <a href="https://stevenliao.me/post/basic_intro_betting_3/">Part Three</a>.</p>
 
                 
                 
