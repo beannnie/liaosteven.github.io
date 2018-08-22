@@ -6,18 +6,39 @@
     <description>Recent content on steven liao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Aug 2018 14:35:27 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 21 Aug 2018 14:55:00 +0800</lastBuildDate>
     
 	<atom:link href="https://stevenliao.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>basics of sports betting part three</title>
+      <link>https://stevenliao.me/post/basic_intro_betting_3/</link>
+      <pubDate>Tue, 21 Aug 2018 14:55:00 +0800</pubDate>
+      
+      <guid>https://stevenliao.me/post/basic_intro_betting_3/</guid>
+      <description>*This is Part Three of Three. Part One covers definitions and betting language. Part Two covers key probability concepts in betting. Part Three covers ancillary concepts such as bankroll management and implied odds.*
+Answers to Part Two Questions Implied Odds  Include Script for Implied Odds  Calculating Juice Kelly Criterion Things We Didn&amp;rsquo;t Cover  Moneyline, Totals, Teasers, Pleasers  Separate Article: Moneyline to Spread Ratio</description>
+    </item>
+    
+    <item>
+      <title>basics of sports betting: part two</title>
+      <link>https://stevenliao.me/post/basic_intro_betting_2/</link>
+      <pubDate>Mon, 20 Aug 2018 20:00:38 +0800</pubDate>
+      
+      <guid>https://stevenliao.me/post/basic_intro_betting_2/</guid>
+      <description>This is Part Two of Three. Part One covers definitions and betting language. Part Two covers key probability concepts in betting. Part Three covers ancillary concepts such as bankroll management and implied odds.
+Welcome to Part Two of the guide! Here, we&amp;rsquo;ll move on from simply understanding terminology to introducing some probablistic concepts in sports betting.
+If you have no prior sports betting knowledge and are reading this, it is highly recommended you read Part One first to understand some of the terminology I&amp;rsquo;ll be using.</description>
+    </item>
+    
+    <item>
       <title>nfl positional value: cap spending by position from 2003 to 2017</title>
       <link>https://stevenliao.me/post/nfl_positional_value/</link>
-      <pubDate>Fri, 17 Aug 2018 14:35:27 +0800</pubDate>
+      <pubDate>Mon, 20 Aug 2018 14:35:27 +0800</pubDate>
       
       <guid>https://stevenliao.me/post/nfl_positional_value/</guid>
-      <description>TLDR: Teams are devoting more spending resources to positions heavily involved in the passing game - quarterbacks, wide receivers, tight ends, defensive backs. On the contrary, and as expected, running back spending has been hit hard.
+      <description>TLDR: Teams are devoting more spending resources to positions heavily involved in the passing game - quarterbacks, wide receivers, tight ends, defensive backs. On the contrary, and as expected, teams are spending far less on running backs.
 We&amp;rsquo;ve all heard the story that the NFL is becoming a passing league. And most would agree that running backs in particular, have seen their value go down in recent years.
 One way to measure positional value is to measure how much of its cap space a team is willing to devote to each position - aka how much &amp;lsquo;cap market share&amp;rsquo; a position takes.</description>
     </item>
@@ -25,7 +46,7 @@ One way to measure positional value is to measure how much of its cap space a te
     <item>
       <title>nba: how does the rise of the 3-pointer impact offensive rebounding strategy?</title>
       <link>https://stevenliao.me/post/offensive_rebounding_strategy/</link>
-      <pubDate>Thu, 16 Aug 2018 16:59:08 +0800</pubDate>
+      <pubDate>Fri, 17 Aug 2018 16:59:08 +0800</pubDate>
       
       <guid>https://stevenliao.me/post/offensive_rebounding_strategy/</guid>
       <description>TLDR: Teams that play &amp;ldquo;Morey-Ball&amp;rdquo; should value offensive rebounds more, and consider devoting more resources to grabbing them.
@@ -43,13 +64,14 @@ In this post we are concerned with the following strategic questions:</descripti
     </item>
     
     <item>
-      <title>basics of sports betting</title>
+      <title>basics of sports betting: part one</title>
       <link>https://stevenliao.me/post/basic_intro_betting/</link>
       <pubDate>Fri, 10 Aug 2018 14:48:45 +0800</pubDate>
       
       <guid>https://stevenliao.me/post/basic_intro_betting/</guid>
       <description>In my content, I may frequently reference sports betting terminology / ideas. Under the dry not wet principle, I am writing this guide.
-If a sportsbook is a restaurant, betting lines are the menu items you can choose from. Betting lines tell you who (which team or individual) you&amp;rsquo;re betting on, conditions for winning the bet, and how much money you&amp;rsquo;ll receive if you win. Just as with restaurants, the menu of betting lines differs by sportsbook; some offer better odds, some offer more diverse menu items (WNBA, high school football), some even offer build-your-own bets.</description>
+This is Part One of Three. Part One covers definitions and betting language. Part Two covers key probability concepts in betting. Part Three covers ancillary concepts such as bankroll management and implied odds.
+If a sportsbook is a restaurant, betting lines are the menu items you can choose from.</description>
     </item>
     
     <item>
@@ -80,7 +102,7 @@ artwork Thanks to the talented Jennifer Zhu for commissioning my self-portraits!
       
       <guid>https://stevenliao.me/about/</guid>
       <description>Hey there - I&amp;rsquo;m Steven - thanks for visiting my site :).
-This site is for me to post my random musings and projects related to sports analytics. It&amp;rsquo;s not intended to be overly academic or technical, content-restrained, nor will I plan to do any heavy editoralizing. I like to think of the content as glorified reddit posts, where I strive to follow a particular nugget of advice from Youtubers everywhere, &amp;lsquo;Create Content you would like to see&amp;rsquo;.</description>
+This site is for me to post my random musings and projects related to sports analytics. It&amp;rsquo;s not intended to be overly academic or technical, content-restrained, nor will I plan to do any heavy editoralizing. I like to think of the content as glorified reddit posts, where I strive to follow advice from Youtubers everywhere, &amp;lsquo;create content you would like to see.</description>
     </item>
     
   </channel>
