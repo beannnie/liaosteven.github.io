@@ -6,7 +6,7 @@
     <description>Recent content on steven liao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Aug 2018 14:55:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Aug 2018 14:55:00 +0800</lastBuildDate>
     
 	<atom:link href="https://stevenliao.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,12 +14,11 @@
     <item>
       <title>basics of sports betting part 3: implied odds</title>
       <link>https://stevenliao.me/post/basic_intro_betting_3/</link>
-      <pubDate>Tue, 21 Aug 2018 14:55:00 +0800</pubDate>
+      <pubDate>Thu, 23 Aug 2018 14:55:00 +0800</pubDate>
       
       <guid>https://stevenliao.me/post/basic_intro_betting_3/</guid>
       <description>This is Part Three of Four. Part One covers definitions and betting language. Part Two covers key probability concepts in betting. Part Three covers implied odds.
-Welcome to Part Three of this guide! We&amp;rsquo;ll cover implied odds and calculating juice, and briefly cover bankroll management theory (Kelly Criterion).
-The hope is after finishing this final section of the guide, you&amp;rsquo;ll understand (most) of the basic concepts needed to build sports betting strategies that work for you.</description>
+Welcome to Part Three of the Basics of Sports Betting guide! In this guide we&amp;rsquo;ll cover implied odds and calculating juice. Implied odds are a useful metric for estimating win probability (and has many use cases outside of sports betting, whenever you need an &amp;lsquo;objective&amp;rsquo; metric for win probability).</description>
     </item>
     
     <item>

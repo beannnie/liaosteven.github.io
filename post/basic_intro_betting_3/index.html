@@ -9,7 +9,7 @@
 
 
     <meta property="og:type" content="article" />
-    <meta property="og:article:published_time" content="2018-08-21T14:55:00&#43;08:00" />
+    <meta property="og:article:published_time" content="2018-08-23T14:55:00&#43;08:00" />
     
 
     <meta name="twitter:card" content="summary" />
@@ -145,7 +145,7 @@
             <div class="article singlepage" id="" class="post">
                 <div class="post-stamp">
                     <h1 class="post-title">basics of sports betting part 3: implied odds</h1>
-                    <span class="post-date">Aug 21, 2018 &middot; 8 minute read</span>
+                    <span class="post-date">Aug 23, 2018 &middot; 8 minute read</span>
                     
 
                     <span class="taglist">
@@ -156,7 +156,7 @@
 
 <p><em>This is <strong>Part Three</strong> of Four. <a href="https://stevenliao.me/post/basic_intro_betting/">Part One</a> covers definitions and betting language. <a href="https://stevenliao.me/post/basic_intro_betting_2/">Part Two</a> covers key probability concepts in betting. <a href="https://stevenliao.me/post/basic_intro_betting_3/">Part Three</a> covers implied odds.</em></p>
 
-<p>Welcome to Part Three of this guide! We&rsquo;ll cover implied odds and calculating juice, and briefly cover bankroll management theory (Kelly Criterion).</p>
+<p>Welcome to Part Three of the Basics of Sports Betting guide! In this guide we&rsquo;ll cover implied odds and calculating juice. Implied odds are a useful metric for estimating win probability (and has many use cases outside of sports betting, whenever you need an &lsquo;objective&rsquo; metric for win probability). Calculating juice is important because obviously we prefer betting lines with smaller juice (akin to paying a smaller commission) - but it is not always clear how large the juice is for a given bet.</p>
 
 <p>The hope is after finishing this final section of the guide, you&rsquo;ll understand (most) of the basic concepts needed to build sports betting strategies that work for you.</p>
 
@@ -209,7 +209,7 @@ p\times \text{Profit} + (1-p)\times\text{Loss}&amp;= 0 \\<br />
 &amp;\to p = \dfrac{100}{A+100}
 \end{align}$$as desired.</p></li>
 
-<li><p>Suppose you bet \$105. If you win the bet (0.5 probability), you profit \$100. If you lose the bet (0.5 probability), you lose \$105. Thus, if you bet \$105, your expected value on the bet is $$0.5\times 100 - 0.5\times 105 = -2.5$$It follows your expected value is $-\dfrac{2.5}{105} = -\boxed{\dfrac{1}{42}} \approx -2.38\%$.</p></li>
+<li><p>Suppose you bet \$105. If you win the bet (0.5 probability), you profit \$100. If you lose the bet (0.5 probability), you lose \$105. Thus, if you bet \$105, your expected value on the bet is $$0.5\times 100 - 0.5\times 105 = -2.5$$It follows your expected value is $-\dfrac{2.5}{105} = \boxed{-\dfrac{1}{42}} \approx -2.38\%$.</p></li>
 </ol>
 
 <h3 id="implied-odds">Implied Odds</h3>
@@ -225,7 +225,7 @@ Tails -110</b>
 
 <p>From here, we might intuitively gather that the sportsbook believes heads and tails are equally likely - since they offer the same odds on each.</p>
 
-<p>However, it is not always clear what the sportsbook believes are the probabilities of each event occuring. Consider the following &lsquo;moneyline bet&rsquo; (bet on which team wins outright, not on the spread)</p>
+<p>However, it is not always clear what the sportsbook believes are the probabilities of each event occuring. Consider the following &lsquo;moneyline bet&rsquo; (bet on which team wins outright, not on the spread).</p>
 
 <p style='text-align: center;'>
 <b>Patriots -250<br>
@@ -248,7 +248,7 @@ Jets +200</b>
 
 <ul>
 <li>Humans are pretty terrible at estimating odds; for instance, there is a tendency to overrate the chances a favorite wins. If I&rsquo;m watching Federer vs Nadal, I simply don&rsquo;t trust a regular fan to give me an accurate percentage chance each player wins.</li>
-<li>Sportsbooks have a tendency to be very accurate - i.e. events that sportsbooks give 80% chance of happening tend to happen around 80% of the time. This is because sportsbooks derive their livelihood off of accurately predicting odds (setting poor odds means they&rsquo;ll likely lose money to bettors).</li>
+<li>Sportsbooks have a tendency to be very accurate - i.e. events that sportsbooks give 80% chance of happening tend to happen around 80% of the time. This is because sportsbooks derive their livelihood off of accurately predicting odds. If they set poor odds, they can lose a lot of money to smart bettors.</li>
 <li>In addition to being accurate, sportsbook implied odds are <em>objective</em> - in that they are common for every game and can be cited. Objective data is valuable when doing projects because a) it allows the project to be reproducible (i.e. if you use &lsquo;my personally estimated odds&rsquo;, no one can reproduce your project in the future because they&rsquo;re not you) and b) it allows meaningful comparisons to be made.</li>
 </ul>
 
@@ -276,8 +276,6 @@ def impliedOdds(a, b):
 
     impliedA = oddsA/(oddsA + oddsB)
     impliedB = oddsB/(oddsA + oddsB)
-
-    totalOdds = oddsA + oddsB
 
     print(&quot;Team A has an implied Vegas win probability of &quot; + str(impliedA))
     print(&quot;Team B has an implied Vegas win probability of &quot; + str(impliedB))
@@ -317,7 +315,7 @@ Here, it is easy to calculate juice. Regardless of which side you bet on, your e
 <ol>
 <li><p>The Saints are playing the Panthers. The moneyline for the Saints is -150 and the money for the Panthers is +130. Assuming no tie, what are the implied odds of each outcome occurring?</p></li>
 
-<li><p>In the previous example, what is the juice?</p></li>
+<li><p>In the previous question, what is the juice?</p></li>
 
 <li><p>Suppose a rival sportsbook posts the moneyline for the Saints as -145 and the Panthers as +135. Now, what are the implied odds of each outcome occurring? What is the juice?</p></li>
 
@@ -328,6 +326,20 @@ Here, it is easy to calculate juice. Regardless of which side you bet on, your e
                 
     <div id="comments">
         
+        
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+      var disqus_shortname = 'steven-liao-sports-analytics';
+      var disqus_identifier = 'https:\/\/stevenliao.me\/post\/basic_intro_betting_3\/';
+      var disqus_title = 'basics of sports betting part 3: implied odds';
+      var disqus_url = 'https:\/\/stevenliao.me\/post\/basic_intro_betting_3\/';
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         
     </div>
 
